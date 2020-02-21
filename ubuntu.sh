@@ -34,7 +34,7 @@ if [ "$first" != 1 ];then
 	cd "$cur"
 fi
 mkdir -p binds
-bin=start-ubuntu.sh
+bin=run.sh
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
